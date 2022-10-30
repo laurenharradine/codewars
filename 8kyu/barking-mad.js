@@ -22,14 +22,14 @@ function Dog (breed) {
   scoobydoo.bark()
 
   // Other solution...
-  function Dog (breed) {
-    this.breed = breed;
-  }
+//   function Dog (breed) {
+//     this.breed = breed;
+//   }
   
-  var snoopy = new Dog("Beagle");
+//   var snoopy = new Dog("Beagle");
   
-  Dog.prototype.bark = function() {
-    return "Woof";
-  };
+//   Dog.prototype.bark = function() {
+//     return "Woof";
+//   };
   
-  var scoobydoo = new Dog("Great Dane");
+//   var scoobydoo = new Dog("Great Dane");
